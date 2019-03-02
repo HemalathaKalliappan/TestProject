@@ -3,9 +3,10 @@
 <suite name="RegressionSuite">
 	<test name="RegistrationPageRegressionTests" parallel="none">
 		<classes>
-			<class name="Selenium.Testngframework.GoogleTest">
-				
-			</class>
+			<class name="Selenium.Testngframework.GoogleTest"> </class>
+			<class name="Selenium.Testngframework.InnovationCount"> </class>
+			<class name="Selenium.Testngframework.TestngAnnotations"></class>
+			<class name="Selenium.Testngframework.TestngFearture"></class>
 		</classes>
 	</test>
 </suite>

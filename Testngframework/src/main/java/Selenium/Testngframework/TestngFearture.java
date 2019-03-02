@@ -9,7 +9,7 @@ public class TestngFearture {
 	@Test
 	public void loginurl() {
 		System.out.println("logintest");
-		int i =9/0;
+		//int i =9/0;
 	}
 	
 	@Test(dependsOnMethods="loginurl")

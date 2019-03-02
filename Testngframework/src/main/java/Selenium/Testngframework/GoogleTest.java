@@ -16,25 +16,25 @@ public class GoogleTest {
 	       driver = new ChromeDriver();
 	       driver.manage().window().maximize();
 	       driver.manage().deleteAllCookies();
-	       driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+	       driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
 	       driver.get("https://www.google.com/");
 	}
 	
 	
-	@Test(priority=1, groups="title")
+	@Test(priority=1, groups="Homepage")
 	public void gettitle()
 	{
 		String title = driver.getTitle();
 		System.out.println(title);
 	}
 
-	@Test(priority=3, groups = "Login")
+	@Test(priority=3, groups="Homepage")
 	public void googlelogotest() {
 		driver.findElement(By.xpath("//*[@id=\"hplogo\"]")).isDisplayed();
 		System.out.println("");
 		}
 	
-	@Test(priority=2, groups="Login")
+	@Test(priority=2, groups="Loginpage")
 	public void maillink() {
 		driver.findElement(By.linkText("Gmail")).isDisplayed();
 		System.out.println("");
