@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RegressionSuite]">
+  <test thread-count="5" name="RegistrationPageRegressionTests(failed)">
+    <classes>
+      <class name="Selenium.Testngframework.GoogleTest">
+        <methods>
+          <include name="test"/>
+          <include name="maillink"/>
+          <include name="test1"/>
+          <include name="setup"/>
+          <include name="googlelogotest"/>
+        </methods>
+      </class> <!-- Selenium.Testngframework.GoogleTest -->
+    </classes>
+  </test> <!-- RegistrationPageRegressionTests(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
