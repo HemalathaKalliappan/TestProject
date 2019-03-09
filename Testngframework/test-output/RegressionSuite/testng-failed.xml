@@ -2,16 +2,14 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [RegressionSuite]">
   <test thread-count="5" name="RegistrationPageRegressionTests(failed)">
+    <parameter name="password" value="pass"/>
+    <parameter name="emailid" value="Admin"/>
     <classes>
-      <class name="Selenium.Testngframework.GoogleTest">
+      <class name="Parametertest.parametertest">
         <methods>
-          <include name="test"/>
-          <include name="maillink"/>
-          <include name="test1"/>
-          <include name="setup"/>
-          <include name="googlelogotest"/>
+          <include name="parameter"/>
         </methods>
-      </class> <!-- Selenium.Testngframework.GoogleTest -->
+      </class> <!-- Parametertest.parametertest -->
     </classes>
   </test> <!-- RegistrationPageRegressionTests(failed) -->
 </suite> <!-- Failed suite [RegressionSuite] -->

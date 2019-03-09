@@ -12,9 +12,9 @@ public class Exceloperation {
 	}
 	
 	
-int colcount = data.getColumnCount("SignUp");
+/*int colcount = data.getColumnCount("SignUp");
 System.out.println(colcount);
 int rownum = data.getCellRowNum("SignUp", "FirstName", "Hemalatha");
-System.out.println(rownum);
+System.out.println(rownum);*/
 	}
 }

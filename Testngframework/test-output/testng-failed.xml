@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RegressionSuite]">
+  <test thread-count="5" name="RegistrationPageRegressionTests(failed)">
+    <parameter name="password" value="pass"/>
+    <parameter name="emailid" value="Admin"/>
     <classes>
-      <class name="Selenium.Testngframework.Exceptiontimeout">
+      <class name="Parametertest.parametertest">
         <methods>
-          <include name="test"/>
+          <include name="parameter"/>
         </methods>
-      </class> <!-- Selenium.Testngframework.Exceptiontimeout -->
+      </class> <!-- Parametertest.parametertest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- RegistrationPageRegressionTests(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->

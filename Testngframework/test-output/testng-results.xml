@@ -1,116 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="RegressionSuite" duration-ms="167" started-at="2019-03-02T11:09:32Z" finished-at="2019-03-02T11:09:32Z">
+  <suite name="RegressionSuite" duration-ms="15487" started-at="2019-03-09T05:51:55Z" finished-at="2019-03-09T05:52:10Z">
     <groups>
-      <group name="Homepage">
-        <method signature="GoogleTest.gettitle()[pri:1, instance:Selenium.Testngframework.GoogleTest@1fbf16f]" name="gettitle" class="Selenium.Testngframework.GoogleTest"/>
-        <method signature="GoogleTest.googlelogotest()[pri:3, instance:Selenium.Testngframework.GoogleTest@1fbf16f]" name="googlelogotest" class="Selenium.Testngframework.GoogleTest"/>
-      </group> <!-- Homepage -->
-      <group name="test">
-        <method signature="GoogleTest.test()[pri:4, instance:Selenium.Testngframework.GoogleTest@1fbf16f]" name="test" class="Selenium.Testngframework.GoogleTest"/>
-        <method signature="GoogleTest.test1()[pri:5, instance:Selenium.Testngframework.GoogleTest@1fbf16f]" name="test1" class="Selenium.Testngframework.GoogleTest"/>
-      </group> <!-- test -->
-      <group name="Loginpage">
-        <method signature="GoogleTest.maillink()[pri:2, instance:Selenium.Testngframework.GoogleTest@1fbf16f]" name="maillink" class="Selenium.Testngframework.GoogleTest"/>
-      </group> <!-- Loginpage -->
     </groups>
-    <test name="RegistrationPageRegressionTests" duration-ms="167" started-at="2019-03-02T11:09:32Z" finished-at="2019-03-02T11:09:32Z">
-      <class name="Selenium.Testngframework.TestngAnnotations">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:Selenium.Testngframework.TestngAnnotations@1906517]" name="Setup" is-config="true" duration-ms="39" started-at="2019-03-02T11:09:32Z" finished-at="2019-03-02T11:09:32Z">
+    <test name="RegistrationPageRegressionTests" duration-ms="15487" started-at="2019-03-09T05:51:55Z" finished-at="2019-03-09T05:52:10Z">
+      <class name="Parametertest.parametertest">
+        <test-method status="PASS" signature="parameter(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Parametertest.parametertest@e6a65d]" name="parameter" duration-ms="15434" started-at="2019-03-09T05:51:55Z" finished-at="2019-03-09T05:52:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:Selenium.Testngframework.TestngAnnotations@1906517]" name="LaunchBrowser" is-config="true" duration-ms="0" started-at="2019-03-02T11:09:32Z" finished-at="2019-03-02T11:09:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchBrowser -->
-        <test-method status="PASS" signature="login()[pri:0, instance:Selenium.Testngframework.TestngAnnotations@1906517]" name="login" is-config="true" duration-ms="1" started-at="2019-03-02T11:09:32Z" finished-at="2019-03-02T11:09:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="gettitle()[pri:0, instance:Selenium.Testngframework.TestngAnnotations@1906517]" name="gettitle" duration-ms="2" started-at="2019-03-02T11:09:32Z" finished-at="2019-03-02T11:09:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- gettitle -->
-        <test-method status="PASS" signature="EnterURL()[pri:0, instance:Selenium.Testngframework.TestngAnnotations@1906517]" name="EnterURL" is-config="true" duration-ms="0" started-at="2019-03-02T11:09:32Z" finished-at="2019-03-02T11:09:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- EnterURL -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:Selenium.Testngframework.TestngAnnotations@1906517]" name="logout" is-config="true" duration-ms="1" started-at="2019-03-02T11:09:32Z" finished-at="2019-03-02T11:09:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method status="PASS" signature="EnterURL()[pri:0, instance:Selenium.Testngframework.TestngAnnotations@1906517]" name="EnterURL" is-config="true" duration-ms="1" started-at="2019-03-02T11:09:32Z" finished-at="2019-03-02T11:09:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- EnterURL -->
-        <test-method status="PASS" signature="newcompany()[pri:0, instance:Selenium.Testngframework.TestngAnnotations@1906517]" name="newcompany" duration-ms="2" started-at="2019-03-02T11:09:32Z" finished-at="2019-03-02T11:09:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- newcompany -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:Selenium.Testngframework.TestngAnnotations@1906517]" name="logout" is-config="true" duration-ms="2" started-at="2019-03-02T11:09:32Z" finished-at="2019-03-02T11:09:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:Selenium.Testngframework.TestngAnnotations@1906517]" name="closebrowser" is-config="true" duration-ms="0" started-at="2019-03-02T11:09:32Z" finished-at="2019-03-02T11:09:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method status="PASS" signature="deletecookies()[pri:0, instance:Selenium.Testngframework.TestngAnnotations@1906517]" name="deletecookies" is-config="true" duration-ms="1" started-at="2019-03-02T11:09:32Z" finished-at="2019-03-02T11:09:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deletecookies -->
-      </class> <!-- Selenium.Testngframework.TestngAnnotations -->
-      <class name="Selenium.Testngframework.TestngFearture">
-        <test-method status="PASS" signature="loginurl()[pri:0, instance:Selenium.Testngframework.TestngFearture@12cdcf4]" name="loginurl" duration-ms="2" started-at="2019-03-02T11:09:32Z" finished-at="2019-03-02T11:09:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginurl -->
-      </class> <!-- Selenium.Testngframework.TestngFearture -->
-      <class name="Selenium.Testngframework.InnovationCount">
-        <test-method status="PASS" signature="test()[pri:0, instance:Selenium.Testngframework.InnovationCount@1af5db5]" name="test" duration-ms="10" started-at="2019-03-02T11:09:32Z" finished-at="2019-03-02T11:09:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test()[pri:0, instance:Selenium.Testngframework.InnovationCount@1af5db5]" name="test" duration-ms="2" started-at="2019-03-02T11:09:32Z" finished-at="2019-03-02T11:09:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test()[pri:0, instance:Selenium.Testngframework.InnovationCount@1af5db5]" name="test" duration-ms="14" started-at="2019-03-02T11:09:32Z" finished-at="2019-03-02T11:09:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test()[pri:0, instance:Selenium.Testngframework.InnovationCount@1af5db5]" name="test" duration-ms="3" started-at="2019-03-02T11:09:32Z" finished-at="2019-03-02T11:09:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test()[pri:0, instance:Selenium.Testngframework.InnovationCount@1af5db5]" name="test" duration-ms="2" started-at="2019-03-02T11:09:32Z" finished-at="2019-03-02T11:09:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test()[pri:0, instance:Selenium.Testngframework.InnovationCount@1af5db5]" name="test" duration-ms="3" started-at="2019-03-02T11:09:32Z" finished-at="2019-03-02T11:09:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test()[pri:0, instance:Selenium.Testngframework.InnovationCount@1af5db5]" name="test" duration-ms="3" started-at="2019-03-02T11:09:32Z" finished-at="2019-03-02T11:09:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test()[pri:0, instance:Selenium.Testngframework.InnovationCount@1af5db5]" name="test" duration-ms="2" started-at="2019-03-02T11:09:32Z" finished-at="2019-03-02T11:09:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test()[pri:0, instance:Selenium.Testngframework.InnovationCount@1af5db5]" name="test" duration-ms="2" started-at="2019-03-02T11:09:32Z" finished-at="2019-03-02T11:09:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test()[pri:0, instance:Selenium.Testngframework.InnovationCount@1af5db5]" name="test" duration-ms="1" started-at="2019-03-02T11:09:32Z" finished-at="2019-03-02T11:09:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- Selenium.Testngframework.InnovationCount -->
+        </test-method> <!-- parameter -->
+      </class> <!-- Parametertest.parametertest -->
     </test> <!-- RegistrationPageRegressionTests -->
   </suite> <!-- RegressionSuite -->
 </testng-results>
