@@ -8,7 +8,9 @@ public class TestUtil {
 	
 
 	public static ArrayList<Object[]> getdatafromexcel() {
-		ArrayList<Object[]> mydata = new ArrayList<Object[]>();
+		
+			ArrayList<Object[]> mydata = new ArrayList<Object[]>();
+		
 		Xls_Reader data = new Xls_Reader("C:\\Users\\Hema\\eclipse-workspace\\DataDrivenDemo\\src\\TestData\\TestData.xlsx");
 	
 		 for(int rownum = 2; rownum <=data.getRowCount("SignUp"); rownum++) {
