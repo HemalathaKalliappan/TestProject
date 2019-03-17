@@ -14,8 +14,8 @@ public class DataDrivenconcept {
 		Xls_Reader data = new Xls_Reader("C:\\Users\\Hema\\eclipse-workspace\\DataDrivenDemo\\src\\TestData\\TestData.xlsx");
 		  int rowcount = data.getRowCount("SignUp");
 		  System.out.println(rowcount);
-		
-        data.addColumn("SignUP", "Result");
+		data.addColumn("SignUp", "Status");
+        
         System.out.println("Added");
                 
         for(int rownum = 2; rownum<=rowcount;rownum++ ) {
@@ -45,9 +45,8 @@ public class DataDrivenconcept {
 	       driver.findElement(By.xpath("//*[@id=\"passwd\"]/div[1]/div/div[1]/input")).sendKeys(Password);
 		
 		
-       
-       data.setCellData("SignUp", "Result", rownum, "Pass");
-        }
+       data.setCellData("SignUp", "Status", rownum, "Pass");
+       }
 
 }
 }

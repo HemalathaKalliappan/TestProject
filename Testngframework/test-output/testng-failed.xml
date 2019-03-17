@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [RegressionSuite]">
-  <test thread-count="5" name="RegistrationPageRegressionTests(failed)">
-    <parameter name="password" value="pass"/>
-    <parameter name="emailid" value="Admin"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Parametertest.parametertest">
+      <class name="pageobjectmodel1.contactpagetest">
         <methods>
-          <include name="parameter"/>
+          <include name="setUp"/>
+          <include name="verifyContactsPageLabel"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- Parametertest.parametertest -->
+      </class> <!-- pageobjectmodel1.contactpagetest -->
     </classes>
-  </test> <!-- RegistrationPageRegressionTests(failed) -->
-</suite> <!-- Failed suite [RegressionSuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

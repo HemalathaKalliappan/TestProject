@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="RegressionSuite">
-	<test name="RegistrationPageRegressionTests" >
+
+<!-- <listeners>
+<listener class-name="pageobjectmodel1.TestngListener"></listener>
+</listeners>
+ --> 
+ 	<test name="RegistrationPageRegressionTests" >
 		
 		<parameter name="browser" value="chrome"></parameter>
 		 <parameter name="emailid" value="Admin"></parameter>
 		<parameter name="password" value="pass"></parameter>
 		
 		<classes>
-		<class name="Parametertest.parametertest"> </class>
-			<!-- <class name="Selenium.Testngframework.GoogleTest"> </class>
-			<class name="Selenium.Testngframework.InnovationCount"> </class>
+		<!-- <class name="Parametertest.parametertest"> </class> -->
+			<class name="pageobjectmodel1.contactpagetest"> </class>
+			<!-- <class name="Selenium.Testngframework.InnovationCount"> </class>
 			<class name="Selenium.Testngframework.TestngAnnotations"></class>
 			<class name="Selenium.Testngframework.TestngFearture"></class> -->
 		</classes>
