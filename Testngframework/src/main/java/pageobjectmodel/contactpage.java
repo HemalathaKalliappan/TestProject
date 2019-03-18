@@ -31,9 +31,8 @@ public class contactpage extends TestBase {
 	@FindBy(name="client_lookup")
 	WebElement company;
 	
-	@FindBy(xpath = "")
+	@FindBy(xpath = "//input[@type='submit' and @value='Save']")
 	WebElement saveBtn;
-	//input[@type='submit' and @value='Save']
 	
 	// Initializing the Page Objects:
 	public contactpage() {
