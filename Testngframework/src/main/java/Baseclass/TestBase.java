@@ -18,7 +18,6 @@ import org.testng.annotations.Parameters;
 import Parametertest.ReadProperties;
 import pageobjectmodel1.WebDriverListener;
 
-
 public class TestBase {
 	
 	
