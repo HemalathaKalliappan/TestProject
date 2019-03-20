@@ -6,6 +6,8 @@
 <listener class-name="pageobjectmodel1.TestngListener"></listener>
 </listeners>
  --> 
+ 
+ 
  	<test name="RegistrationPageRegressionTests" >
 		
 		<parameter name="browser" value="chrome"></parameter>

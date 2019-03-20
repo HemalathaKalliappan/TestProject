@@ -13,6 +13,7 @@ import Baseclass.TestBase;
 
 public class contactpage extends TestBase {
 	
+	
 	@FindBy(xpath = "//a[contains(text(),'Contacts')]")
 	WebElement contactsLink;
 	
