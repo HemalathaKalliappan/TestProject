@@ -12,6 +12,7 @@
 		 <parameter name="emailid" value="Admin"></parameter>
 		<parameter name="password" value="pass"></parameter>
 		
+		
 		<classes>
 		<!-- <class name="Parametertest.parametertest"> </class> -->
 			<class name="pageobjectmodel1.contactpagetest"> </class>

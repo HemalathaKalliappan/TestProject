@@ -20,7 +20,6 @@ import pageobjectmodel1.WebDriverListener;
 
 public class TestBase {
 	
-	
 	public static WebDriver driver;
 	public static Properties prop;
 	public  static EventFiringWebDriver e_driver;

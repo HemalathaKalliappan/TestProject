@@ -10,7 +10,6 @@ public void onTestStart(ITestResult result) {
 		System.out.println("Test has been started");
 		
 	}
-
 	public void onTestSuccess(ITestResult result) {
 		System.out.println("Test got passed are "+ result.getName());
 	}

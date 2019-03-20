@@ -19,7 +19,6 @@ public class contactpagetest extends TestBase{
 			
 	}
 	
-	
 	@BeforeMethod
 	public void setUp() throws InterruptedException {
 		parameter();
