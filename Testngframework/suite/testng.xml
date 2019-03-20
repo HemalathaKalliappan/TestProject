@@ -7,7 +7,6 @@
 </listeners>
  --> 
  
- 
  	<test name="RegistrationPageRegressionTests" >
 		
 		<parameter name="browser" value="chrome"></parameter>

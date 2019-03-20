@@ -39,8 +39,7 @@ public class contactpage extends TestBase {
 	public contactpage() {
 		PageFactory.initElements(driver, this);
 	}
-	
-	
+
 	public void title(String name) {
 		Select select = new Select(title);
 		select.selectByVisibleText(prop.getProperty("name"));
